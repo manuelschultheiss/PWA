@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+<script>navigator.serviceWorker.register("service-worker.js")</script> 
+<link rel="manifest" href="manifest.json" />    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Investitionskalkulator</h2>
+    <h3>Kapitalkosten</h3>
+        <label for="name">Investitionskosten:</label>
+        <input type="number" id="Investitionskosten" name="Investitionskosten" required><br><br>
+        <label for="name">Zinsen:</label>
+        <input type="number" id="Zinsen" name="Zinsen" required><br><br>
+        <label for="name">Abschreibung</label>
+        <input type="number" id="Abschreibung" name="Abschreibung" required><br><br>
+        <label for="email">Platzkosten:</label>
+        <input type="number" id="Platzkosten" name="Platzkosten" required><br><br>
+        
+    <h3>Betriebskosten</h3>
+    <label for="name">Kosten kWh(€):</label>
+    <input type="number" id="Kosten_kWh" name="Kosten_kWh" required><br><br>
+    <label for="name">Kosten Stickstoff (€/m³):</label>
+    <input type="number" id="Kosten_Stickstoff" name="Kosten_Stickstoff" required><br><br>
+    <label for="name">Kosten Sauerstoff (€/m³):</label>
+    <input type="number" id="Kosten_Sauerstoff" name="Kosten_Sauerstoff" required><br><br>
+    <label for="name">Kosten Druckluft (€/m³):</label>
+    <input type="number" id="Kosten_Druckluft" name="Kosten_Druckluft" required><br><br>
+    <button onclick="berechne()">Berechnen</button>
+    <p id="ergebnis">Ergebnis: </p>
+</body>
+</html>
