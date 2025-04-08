@@ -11,8 +11,7 @@
 "orientation": "any",
 "icons": [
     {
-        "src": "https://github.com/manuelschultheiss/PWA/blob/main/Unbenannt.png
-",
+        "src": "https://github.com/manuelschultheiss/PWA/blob/main/Unbenannt.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
